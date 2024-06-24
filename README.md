@@ -5,10 +5,10 @@
 
 </div>
 
-This repo contains listing of my implementation of calculi corresponding to the **Lambda Cube**
+This repo contains my implementation of calculi corresponding to the **Lambda Cube**
 > Underconstruction
 
-* (**λ**) Untyped Lambda Calculus - [Python]() [Rust]().
+* (**λ**) Untyped Lambda Calculus - [Python]() [Rust]()
 * (**λ→**) Simply Typed Lambda Calculus - [Python]() [Rust]()
 * (**λ2**) System F / Polymorphic Lambda Calculus - [Python]() [Rust]()
 * (**Fω**) System F Omega / Higher-Order Polymorphic Lambda Calculus - [Python]() [Rust]()
