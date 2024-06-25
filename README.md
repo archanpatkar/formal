@@ -8,7 +8,8 @@
 This repo contains my implementation of calculi corresponding to the **Lambda Cube**
 > Underconstruction
 
-* (**λ**) Untyped Lambda Calculus - [Python]() [Rust]()
-* (**λ→**) Simply Typed Lambda Calculus - [Python]() [Rust]()
-* (**λ2**) System F / Polymorphic Lambda Calculus - [Python]() [Rust]()
-* (**Fω**) System F Omega / Higher-Order Polymorphic Lambda Calculus - [Python]() [Rust]()
+* (**λ**) Untyped Lambda Calculus - [Python]() [JS](https://github.com/archanpatkar/ulc)
+* (**λ→**) Simply Typed Lambda Calculus - [JS](https://github.com/archanpatkar/styla)
+* (**λ2**) System F / Polymorphic Lambda Calculus - [JS](https://github.com/archanpatkar/systemF)
+  * Restricted System F with Type Inference (*Hindley-Milner-Damas*) - [JS](https://github.com/archanpatkar/hml)
+* (**Fω**) System F Omega / Higher-Order Polymorphic Lambda Calculus - [JS](https://github.com/archanpatkar/omega)
