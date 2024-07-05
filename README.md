@@ -9,7 +9,7 @@ This repository contains my implementation of calculi corresponding to the [**La
 
 > Underconstruction
 
-* (**λ**) Untyped Lambda Calculus - [Python]() [JS](https://github.com/archanpatkar/ulc)
+* (**λ**) Untyped Lambda Calculus - [Python](https://github.com/archanpatkar/lambdacube/blob/main/ulc) [JS](https://github.com/archanpatkar/ulc)
 * (**λ→**) Simply Typed Lambda Calculus - [JS](https://github.com/archanpatkar/styla)
 * (**λ2**) System F / Polymorphic Lambda Calculus - [JS](https://github.com/archanpatkar/systemF)
   * Restricted System F with Type Inference (*Hindley-Milner-Damas*) - [JS](https://github.com/archanpatkar/hml)
