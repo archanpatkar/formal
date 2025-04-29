@@ -108,4 +108,4 @@ def parse(source):
         if e.line <= len(lines):
             print(lines[e.line - 1])
             print(" " * (e.column - 1) + "^")
-        raise e
+        # raise e

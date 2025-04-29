@@ -1,0 +1,28 @@
+%import common.CNAME
+%import common.WS_INLINE
+%ignore WS_INLINE
+
+?start: top_item+
+
+?top_item: expr -> expr
+         | top_let
+         | top_letrec
+
+top_let: "let" CNAME param_list "=" expr -> top_let
+top_letrec: "let" "rec" param_list CNAME "=" expr -> top_letrec
+
+?expr: lam
+     | let_expr
+     | app_chain
+
+?lam: ("λ" | "\\") CNAME+ "." expr -> lam
+
+?let_expr: "let" CNAME param_list "=" expr "in" expr -> let
+         | "let" "rec" CNAME param_list "=" expr "in" expr -> letrec
+
+?app_chain: atom+ -> app_chain
+
+?atom: CNAME -> var
+     | "(" expr ")" -> group
+
+param_list: CNAME*
