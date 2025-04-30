@@ -16,7 +16,7 @@ This repository contains my implementation of calculi corresponding to the [**La
   - [Eval/apply operational semantics](https://github.com/archanpatkar/ulc/blob/master/src/eval.js) (old)
   - [Minimal core embedded in host language](https://github.com/archanpatkar/lambdacube/blob/main/coc/embedded/untyped.py)
 * (**λ→**) Simply Typed Lambda Calculus - [JS](https://github.com/archanpatkar/styla)
-  - [Church-style syntax directed type checker](https://github.com/archanpatkar/ulc/blob/master/src/eval.js) (old)
+  - [Church-style syntax directed type checker](https://github.com/archanpatkar/styla/blob/master/src/type.js) (old)
   - [Minimal core embedded in host language](https://github.com/archanpatkar/lambdacube/blob/main/coc/embedded/stlc.py)
 * (**λ2**) System F / Polymorphic Lambda Calculus - [JS](https://github.com/archanpatkar/systemF)
   - Restricted System F with Type Inference (*Hindley-Milner-Damas*) - [JS](https://github.com/archanpatkar/hml)
