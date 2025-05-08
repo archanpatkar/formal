@@ -18,6 +18,11 @@ This repository contains my implementation of calculi corresponding to the [**La
 * (**λ→**) Simply Typed Lambda Calculus - [JS](https://github.com/archanpatkar/styla)
   - [Church-style syntax directed type checker](https://github.com/archanpatkar/styla/blob/master/src/type.js) (old)
   - [Minimal core embedded in host language](https://github.com/archanpatkar/lambdacube/blob/main/coc/embedded/stlc.py)
+* (**LLC**) Linear Lambda Calculus - [Python](https://github.com/archanpatkar/lambdacube/blob/main/llc/)
+  - [Linearity-enforcing typechecker](https://github.com/archanpatkar/lambdacube/blob/main/llc/type.py)
+    - de Bruijn-Peano core
+    - explicit usage tracking
+    - supports ⊗, ⊕, &, 1, ⊥, ⊤
 * Restricted System F with Type Inference (*Hindley-Milner-Damas*) - [JS](https://github.com/archanpatkar/hml)
   - [Algorithm W](https://github.com/archanpatkar/hml/blob/master/src/type.js)
 * (**λ2**) System F / Polymorphic Lambda Calculus - [JS](https://github.com/archanpatkar/systemF)
