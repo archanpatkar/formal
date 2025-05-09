@@ -5,7 +5,7 @@
 
 </div>
 
-This repository contains my implementation of calculi corresponding to the [**Lambda Cube**](https://en.wikipedia.org/wiki/Lambda_cube). The older JavaScript implementations, while full-featured, relied more on eval/apply operational semantics. The present revival is based on the more traditional syntactic rewriting approach. The overall aim of this project is to deeply explore the foundational aspects of computation, plt, type theory, functional programming, compilers, and formal verification.
+This repository contains my implementation of calculi corresponding to the [**Lambda Cube**](https://en.wikipedia.org/wiki/Lambda_cube). The older JavaScript implementations, while full-featured, relied more on eval/apply operational semantics. The present revival is based on the more traditional syntactic rewriting approach. The overall aim of this project is to deeply explore the foundational aspects of logic, computation, plt, type theory, functional programming, compilers, and formal verification.
 
 > foundations are always under construction
 
