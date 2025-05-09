@@ -9,6 +9,8 @@ This repository contains my implementation of calculi corresponding to the [**La
 
 > foundations are always under construction
 
+* Propositional Logic
+  - [DPLL SAT Solver](https://github.com/archanpatkar/vostas)
 * (**λ**) Untyped Lambda Calculus - [Python](https://github.com/archanpatkar/lambdacube/blob/main/ulc) [JS](https://github.com/archanpatkar/ulc)
   - [α-conversion](https://github.com/archanpatkar/lambdacube/blob/main/ulc/lambda.py)
   - [de Bruijn representation](https://github.com/archanpatkar/lambdacube/blob/main/ulc/debruijn.py)
