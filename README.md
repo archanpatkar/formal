@@ -13,6 +13,7 @@ This repository contains my implementation of calculi corresponding to the [**La
   - [DPLL SAT Solver](https://github.com/archanpatkar/vostas)
 * SKI Combinator Calculus
   - [Rewrite-based normalization](https://github.com/archanpatkar/lambdacube/blob/main/ski/rewrite.py)
+  - [Stack-based normalization](https://github.com/archanpatkar/lambdacube/blob/main/ski/stack.py)
 * (**λ**) Untyped Lambda Calculus - [Python](https://github.com/archanpatkar/lambdacube/blob/main/ulc) [JS](https://github.com/archanpatkar/ulc)
   - [α-conversion](https://github.com/archanpatkar/lambdacube/blob/main/ulc/lambda.py)
   - [de Bruijn representation](https://github.com/archanpatkar/lambdacube/blob/main/ulc/debruijn.py)
