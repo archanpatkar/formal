@@ -37,3 +37,5 @@ This repository contains my implementation of calculi corresponding to the [**La
   - [Normalization by Evaluation (NbE)](https://github.com/archanpatkar/lambdacube/blob/main/mltt/nbe.py)
 * (**λC**) Calculus of constructions - 
   - [Minimal core embedded in host language](https://github.com/archanpatkar/lambdacube/blob/main/coc/embedded/dep.py)
+* Non-Classical & Many-Valued Logics
+  - [Kleene 3-valued logic](https://github.com/archanpatkar/tvl)
