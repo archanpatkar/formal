@@ -5,7 +5,7 @@
 
 </div>
 
-This repository contains my implementation of calculi corresponding to the [**Lambda Cube**](https://en.wikipedia.org/wiki/Lambda_cube). The older JavaScript implementations, while full-featured, relied more on eval/apply operational semantics. The present revival is based on the more traditional syntactic rewriting approach. The overall aim of this project is to deeply explore the foundational aspects of logic, computation, plt, type theory, functional programming, compilers, and formal verification.
+This repository contains my implementation of calculi corresponding to the [**Lambda Cube**](https://en.wikipedia.org/wiki/Lambda_cube). The older JavaScript implementations, while full-featured, relied more on eval/apply operational semantics. The present revival is based on the more traditional syntactic rewriting approach. The overall aim of this project is to deeply explore the foundational aspects of logic, computation, plt, formal verification, type theory, category theory, functional programming, and compilers.
 
 > foundations are always under construction
 
@@ -35,7 +35,11 @@ This repository contains my implementation of calculi corresponding to the [**La
 * (**MLTT**) Martin-Löf (dependent) type theory - [Python](https://github.com/archanpatkar/lambdacube/blob/main/mltt)
   - [Substitution, Type Inference](https://github.com/archanpatkar/lambdacube/blob/main/mltt/main.py)
   - [Normalization by Evaluation (NbE)](https://github.com/archanpatkar/lambdacube/blob/main/mltt/nbe.py)
-* (**λC**) Calculus of constructions - 
+* (**λC**) Calculus of constructions
   - [Minimal core embedded in host language](https://github.com/archanpatkar/lambdacube/blob/main/coc/embedded/dep.py)
 * Non-Classical & Many-Valued Logics
-  - [Kleene 3-valued logic](https://github.com/archanpatkar/tvl)
+  - (**K3**) [Kleene 3-valued logic](https://github.com/archanpatkar/tvl)
+  - (**Gk**) [Gödel logics](https://github.com/archanpatkar/godel)
+* Formal Systems & Metalogic
+  - [MIU Rule engine](https://github.com/archanpatkar/mure/tree/master)
+    - from Hofstadter’s GEB
