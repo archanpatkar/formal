@@ -40,6 +40,17 @@ This repository contains my implementation of calculi corresponding to the [**La
 * Non-Classical & Many-Valued Logics
   - (**K3**) [Kleene 3-valued logic](https://github.com/archanpatkar/tvl)
   - (**Gk**) [Gödel logics](https://github.com/archanpatkar/godel)
-* Formal Systems & Metalogic
+* Cellular Automata
+  - [Universal 1D Cellular Automata Simulator](https://github.com/archanpatkar/lambdacube/blob/main/ca/sim.c)
+    - General-purpose engine for Elementary Cellular Automata (ECA)
+    - Minimalist rule-driven DSL
+    - Dynamic bitvector-based simulation (C)
+  - [Rule 110](https://github.com/archanpatkar/lambdacube/blob/main/ca/rule110.ca)
+    - Turing-complete (Cook 2004)
+  - [Rule 90](https://github.com/archanpatkar/lambdacube/blob/main/ca/rule110.ca)
+    - Sierpiński fractal 
+    - xor rules
+* Other Formal Systems & Metalogic
   - [MIU Rule engine](https://github.com/archanpatkar/mure/tree/master)
     - from Hofstadter’s GEB
+
