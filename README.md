@@ -47,7 +47,7 @@ This repository contains my implementation of calculi corresponding to the [**La
     - Dynamic bitvector-based simulation (C)
   - [Rule 110](https://github.com/archanpatkar/lambdacube/blob/main/ca/rule110.ca)
     - Turing-complete (Cook 2004)
-  - [Rule 90](https://github.com/archanpatkar/lambdacube/blob/main/ca/rule110.ca)
+  - [Rule 90](https://github.com/archanpatkar/lambdacube/blob/main/ca/rule90.ca)
     - Sierpiński fractal 
     - xor rules
 * Other Formal Systems & Metalogic
@@ -55,6 +55,11 @@ This repository contains my implementation of calculi corresponding to the [**La
     - from Hofstadter’s GEB
     - semi-code golf implementation
     - includes lazy generator for stepwise derivations
+  - [Bags & Bundles (NBE)](https://github.com/archanpatkar/lambdacube/blob/main/misc/elementary_nbe.js)
+    - based on Oleg Kiselyov’s tiny symbolic game
+    - semantic model: total shell count
+
+
 
 
 
