@@ -53,4 +53,8 @@ This repository contains my implementation of calculi corresponding to the [**La
 * Other Formal Systems & Metalogic
   - [MIU Rule engine](https://github.com/archanpatkar/mure/tree/master)
     - from Hofstadter’s GEB
+    - semi-code golf implementation
+    - includes lazy generator for stepwise derivations
+
+
 
