@@ -36,6 +36,15 @@ int get(bitvec* v, int index){
     return GetBit(v->base,index,sizeof(int)) != 0;
 }
 
+int getwrap(bitvec* v, int index){
+    if(v->len == 0) return 0;
+    if(index < 0)
+        index = v->len + (index % v->len);
+    else if(index >= v-> len) 
+        index = index % v->len;
+    return GetBit(v->base,index,sizeof(int)) != 0;
+}
+
 int set(bitvec* v, int index, int val) {
     if((v->cap*sizeof(int)*8) <= index) {
         int bits = sizeof(int)*8;
@@ -83,8 +92,7 @@ int op_xnor(int v1,int v2) { return v1 == v2; }
 int apply_mask(bitmask* mask, bitvec* vec, int offset, reducer r, bitop op, int acc) {
     for(int i = 0;i < mask->len;i++) {
         int idx = offset+i;
-        // int b = (idx < 0 || idx >= vec->len)? 0: get(vec,idx);
-        acc = r(acc, op(mask->mask[i],get(vec,idx)));
+        acc = r(acc, op(mask->mask[i],getwrap(vec,idx)));
     }
     return acc;
 }
@@ -137,9 +145,16 @@ char* ca2str(bitvec* vec, char on, char off) {
     return st;
 }
 
+// void grow_left(bitvec* vec, int chunks) {}
+// void grow_right(bitvec* vec, int chunks) {}
+
 void sim(int iters, bitvec* world, ruleset* rs, char sym[2]) {
     int wsize = world->len;
     for(int i = 0; i < iters; i++) {
+        // if(get(world,0)) grow_left(world,1);
+        // if(get(world,world->len-1)) grow_right(world,1);
+        // int wsize = world->len;
+
         bitvec* next = new_bitvec(wsize);
         next->len = wsize;
 
