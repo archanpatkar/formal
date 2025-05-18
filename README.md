@@ -37,6 +37,11 @@ This repository contains my implementation of calculi corresponding to the [**La
   - [Normalization by Evaluation (NbE)](https://github.com/archanpatkar/lambdacube/blob/main/mltt/nbe.py)
 * (**λC**) Calculus of constructions
   - [Minimal core embedded in host language](https://github.com/archanpatkar/lambdacube/blob/main/coc/embedded/dep.py)
+* Tree Calculus
+  - [Branch-first evaluator](https://github.com/archanpatkar/lambdacube/blob/main/tree/bfeval/src/index.js)
+    - parsimonious, Turing-complete system
+    - computaion via tree rewriting
+    - has reflective capability
 * Non-Classical & Many-Valued Logics
   - (**K3**) [Kleene 3-valued logic](https://github.com/archanpatkar/tvl)
   - (**Gk**) [Gödel logics](https://github.com/archanpatkar/godel)
