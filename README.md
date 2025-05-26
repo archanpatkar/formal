@@ -1,6 +1,8 @@
 <div align="center" style="background-color:white"/>
 <img src="./LambdaCube.png" height="215em" width="250em"/>
 <img src="./ChomskyHierarchy.png" height="215em" width="250em"/>
+<img src="./CategoryTheory.png" height="215em" width="250em"/>
+
 
 
 ### Formal Systems Lab
@@ -67,6 +69,7 @@ This repository contains my implementation of calculi corresponding to the [**La
     - semantic model: total shell count
 
 
-
-
-
+#### Image Credits
+1. [Lambda Cube](https://github.com/archanpatkar/formal/blob/main/LambdaCube.png) by <a href="//commons.wikimedia.org/w/index.php?title=User:Tellofou&amp;action=edit&amp;redlink=1" class="new" title="User:Tellofou (page does not exist)">Tellofou</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=76344034">Link</a>
+2. [Chomsky Hierarchy](https://github.com/archanpatkar/formal/blob/main/ChomskyHierarchy.png) by <a href="//commons.wikimedia.org/wiki/User:J._Finkelstein" title="User:J. Finkelstein">J. Finkelstein</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=9405226">Link</a>
+3. [Category Theory](https://github.com/archanpatkar/formal/blob/main/CategoryTheory.png) by <a href="//commons.wikimedia.org/w/index.php?title=User:Cepheus&amp;action=edit&amp;redlink=1" class="new" title="User:Cepheus (page does not exist)">User:Cepheus</a> - Own work, based on <a href="https://en.wikipedia.org/wiki/Image:MorphismComposition-01.png" class="extiw" title="en:Image:MorphismComposition-01.png">en:Image:MorphismComposition-01.png</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=1425613">Link</a>
