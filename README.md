@@ -1,7 +1,9 @@
 <div align="center" style="background-color:white"/>
 <img src="./LambdaCube.png" height="215em" width="250em"/>
+<img src="./ChomskyHierarchy.png" height="215em" width="250em"/>
 
-### Lambda Cube
+
+### Formal Systems Lab
 
 </div>
 
