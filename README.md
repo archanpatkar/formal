@@ -9,7 +9,7 @@
 
 </div>
 
-This repository contains my implementation of calculi corresponding to the [**Lambda Cube**](https://en.wikipedia.org/wiki/Lambda_cube), and extends into the broader domain of formal systems. The current implementations emphasize traditional syntactic rewriting approaches, in contrast to my earlier eval/apply-style interpreters and semantics. The work explores connections between logic, computation, plt, formal verification, type theory, category theory, cellular automata, functional programming, and compiler construction. The scope ranges from elementary propositional logic to dependent type systems, non-classical logics, rewriting systems, and beyond.
+This repository contains my implementation of calculi corresponding to the [**Lambda Cube**](https://en.wikipedia.org/wiki/Lambda_cube), and extends into the broader domain of formal systems. The current implementations emphasize traditional syntactic rewriting approaches, in contrast to my earlier eval/apply-style interpreters and semantics. The work explores connections between logic, computation, plt, formal verification, type theory, category theory, cellular automata, functional programming, and compiler construction. The scope ranges from elementary propositional logic to dependent type systems, non-classical logics, rewriting systems, and beyond. For other language-oriented experiments and interpreter/compiler implementations, see the [PLT repository](https://github.com/archanpatkar/plt).
 
 > foundations are always under construction
 
