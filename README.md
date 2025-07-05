@@ -9,7 +9,7 @@
 
 </div>
 
-This repository contains my implementation of calculi corresponding to the [**Lambda Cube**](https://en.wikipedia.org/wiki/Lambda_cube). The older JavaScript implementations, while full-featured, relied more on eval/apply operational semantics. The present revival is based on the more traditional syntactic rewriting approach. The overall aim of this project is to deeply explore the foundational aspects of logic, computation, plt, formal verification, type theory, category theory, functional programming, and compilers.
+This repository contains my implementation of calculi corresponding to the [**Lambda Cube**](https://en.wikipedia.org/wiki/Lambda_cube), and extends into the broader domain of formal systems. The current implementations emphasize traditional syntactic rewriting approaches, in contrast to my earlier eval/apply-style interpreters and semantics. The work explores connections between logic, computation, plt, formal verification, type theory, category theory, cellular automata, functional programming, and compiler construction. The scope ranges from elementary propositional logic to dependent type systems, non-classical logics, rewriting systems, and beyond.
 
 > foundations are always under construction
 
@@ -22,7 +22,7 @@ This repository contains my implementation of calculi corresponding to the [**La
   - [α-conversion](https://github.com/archanpatkar/lambdacube/blob/main/ulc/lambda.py)
   - [de Bruijn representation](https://github.com/archanpatkar/lambdacube/blob/main/ulc/debruijn.py)
   - [Normalization by Evaluation (NbE)](https://github.com/archanpatkar/lambdacube/blob/main/ulc/nbe.py)
-  - [Eval/apply operational semantics](https://github.com/archanpatkar/ulc/blob/master/src/eval.js) (old)
+  - [eval/apply operational semantics](https://github.com/archanpatkar/ulc/blob/master/src/eval.js) (old)
   - [Minimal core embedded in host language](https://github.com/archanpatkar/lambdacube/blob/main/coc/embedded/untyped.py)
 * (**λ→**) Simply Typed Lambda Calculus - [JS](https://github.com/archanpatkar/styla)
   - [Church-style syntax directed type checker](https://github.com/archanpatkar/styla/blob/master/src/type.js) (old)
